@@ -35,4 +35,4 @@ Input : file directory where the input files are stored
 3. To put your input file on hdfs type
 hadoop fs -put \<input file path\>/\<input file name\> \<hdfs file path\>
 4. to run the program type
-hadoop jar \<name of jar file\> \<classname\> \<input file path in hdfs\> <output file path in hdfs>
+hadoop jar \<name of jar file\> \<classname\> \<input file path in hdfs\> \<output file path in hdfs\>
